@@ -39,6 +39,7 @@ def all_supplies_in_holidays(holiday_hash)
       current_holiday_array.each do |word|
         word.capitalize!
       end 
+      
       puts "  #{(holiday.to_s).capitalize}: #{list.join(', ') }"
     end 
   end 
